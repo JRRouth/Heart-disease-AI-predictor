@@ -3,7 +3,7 @@ import pandas as pd
 import joblib  # or pickle
 
 # Load your saved model
-model = joblib.load('your_model_filename.pkl')
+model = joblib.load('heart_disease_model.pkl')
 
 # Load feature columns saved earlier (optional)
 feature_columns = joblib.load('feature_columns.pkl')
