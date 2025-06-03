@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 
 # Load trained model
-model = joblib.load("model.pkl")
+model = joblib.load("heart_disease_model.pkl")
 
 st.title("❤️ Heart Disease Prediction App")
 st.write("Enter patient details to predict the risk of heart disease.")
