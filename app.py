@@ -5,7 +5,7 @@ import joblib
 
 # Load trained model
 model = joblib.load("heart_disease_model.pkl")
-feature_columns = joblib.load("features.pkl")
+feature_columns = joblib.load("feature_columns.pkl")
 st.title("❤️ Heart Disease Prediction App")
 st.write("Enter patient details to predict the risk of heart disease.")
 
