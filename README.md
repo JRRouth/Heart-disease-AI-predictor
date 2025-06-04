@@ -130,7 +130,7 @@ seaborn
 
 🤖 Model Info
 
-Model: Random Forest (tuned with GridSearchCV)
+Model: XGBoost(tuned with GridSearchCV)
 
 Performance:
 
