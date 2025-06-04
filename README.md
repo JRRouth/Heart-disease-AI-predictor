@@ -134,9 +134,9 @@ Model: Random Forest (tuned with GridSearchCV)
 
 Performance:
 
-Accuracy: ~85%
+Accuracy: ~90%
 
-ROC AUC: ~0.89
+ROC AUC: ~0.96
 
 
 
