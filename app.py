@@ -49,7 +49,7 @@ input_dict = {
 input_df = pd.DataFrame([input_dict])
 
 # Reindex columns to match training features
-model_features = model.feature_names_in_
+model_features = feature_columns
 input_df = input_df.reindex(columns=model_features, fill_value=0)
 
 # Predict
