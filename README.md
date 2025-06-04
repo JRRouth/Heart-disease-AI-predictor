@@ -140,8 +140,6 @@ ROC AUC: ~0.89
 
 
 
-(Replace with actual metrics)
-
 
 ---
 
